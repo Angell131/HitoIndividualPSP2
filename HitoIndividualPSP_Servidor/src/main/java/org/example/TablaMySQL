@@ -1,0 +1,16 @@
+create database HitoPSP;
+
+create table juegos (
+	id int not null primary key auto_increment,
+    nombre varchar(30),
+    nota float,
+    empresa varchar(30),
+    fecha varchar(20)
+);
+
+insert into juegos values (1,"Titan Fall 2",90,"Respawn Entertainment","28/10/2016");
+insert into juegos values (2,"Destiny 2",80,"Bungie","28/8/2017");
+insert into juegos values (3,"Ghost of Tsusima",85,"Sucker Punch Productions","17/7/2020");
+insert into juegos values (4,"Apex Legends",88,"Respawn Entertainment","4/2/2019");
+insert into juegos values (5,"Subnautica",87,"Unknown Worlds Entertainment","16/12/2014");
+insert into juegos values (6,"Demon Soulds",95,"Bluepoint Games","5/2/2009");
